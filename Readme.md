@@ -2,6 +2,8 @@
 
 This is a simple Linux kernel module that serves as a basic device driver to echo back user input through a `/proc` entry. When a user writes a string to the `/proc/pyjama_driver` file, the driver will store it and return the same string when read.
 
+Please use multipass or any virtual machine for trying it out - in order to avoiding playing with our own kernel.
+
 ## Table of Contents
 
 - [Basic Device Driver for Echoing User Input](#basic-device-driver-for-echoing-user-input)
